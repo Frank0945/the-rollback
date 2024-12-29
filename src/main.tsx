@@ -2,14 +2,13 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 
 import App from "./App";
-import { preloadResources } from "./preloadResources.ts";
 
 import "./style.css";
 
-preloadResources();
-
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <App />
+    <div id="aspectRatio" className="font-AnonymousPro">
+      <App />
+    </div>
   </StrictMode>,
 );
