@@ -7,7 +7,7 @@ import "./style.css";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <div id="aspectRatio" className="font-AnonymousPro">
+    <div id="aspectRatio" className="font-AnonymousPro text-2xl">
       <App />
     </div>
   </StrictMode>,

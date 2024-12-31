@@ -4,15 +4,18 @@ export default {
   content: ["./src/**/*.{ts,tsx}"],
   theme: {
     colors: {
+      blue: "#34859D",
       black: "#000",
-      white: "#fff",
+      white: "rgb(251, 250, 249)",
       yellow: "#F5EDBA",
+      lightGreen: "#7EC4C1",
       green: "#647D34",
       darkGreen: "#323021",
       red: "#9D303B",
       pink: "#D26471",
       purple: "#3E2137",
       lightPurple: "#584563",
+      superLightPurple: "rgb(184, 170, 176)",
     },
     fontFamily: {
       sans: ["Graphik", "sans-serif"],
@@ -40,13 +43,13 @@ export default {
           "100%": { opacity: "1", pointerEvents: "unset" },
         },
         bounceInUp: {
-          "0%": { transform: "translateY(145%)" },
+          "0%": { transform: "translateY(145%)", opacity: "0" },
           "35%": { transform: "translateY(-25%)" },
-          "100%": { transform: "translateY(0)" },
+          "100%": { transform: "translateY(0)", opacity: "1" },
         },
         goDown: {
-          "0%": { transform: "translateY(0)" },
-          "100%": { transform: "translateY(145%)" },
+          "0%": { transform: "translateY(0)", opacity: "1" },
+          "100%": { transform: "translateY(145%)", opacity: "0" },
         },
         upToDown: {
           "0%": { transform: "translateY(-100%)" },

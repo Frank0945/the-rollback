@@ -20,6 +20,19 @@ img {
   -webkit-user-drag: none;
 }
 
+input {
+  outline: none;
+}
+
+a {
+  text-decoration: underline;
+  color: #34859d;
+  cursor: pointer;
+}
+a:hover {
+  font-weight: bold;
+}
+
 #root {
   /* This can be just any element with responsive W/H */
   min-height: 100vh;
@@ -52,4 +65,8 @@ img {
   transition: all 0.5s;
   filter: drop-shadow(0px 0px 60px #f5edba);
   cursor: pointer;
+}
+
+.terminal p {
+  margin-bottom: 16px;
 }

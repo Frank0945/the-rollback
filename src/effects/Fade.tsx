@@ -12,7 +12,7 @@ const Fade = (props: FadeProps) => {
   return (
     <div
       className={clsx(
-        "absolute z-10 h-full w-full",
+        "absolute z-20 h-full w-full",
         { "animate-fadeOut": props.status == FadeStatus.out },
         { "animate-fadeIn": props.status == FadeStatus.in },
       )}
